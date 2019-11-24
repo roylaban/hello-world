@@ -17,6 +17,8 @@
 
 
 #include <Adafruit_Fingerprint.h>
+#include <SoftwareSerial.h> //Inclcude software serial library
+#include <Wire.h> //Include wire library
 
 // On Leonardo/Micro or others with hardware serial, use those! #0 is green wire, #1 is white
 // uncomment this line:
